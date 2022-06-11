@@ -150,8 +150,10 @@ h1{
 .artigo2 article p{
     width: 65%;
 }
+
+/* CONHEÇA */
 .conheca{
-  padding-bottom: 96px;
+  margin-bottom: 96px;
 }
 .conheca section{
   display: flex;
@@ -167,11 +169,55 @@ h1{
 }
 .conheca p{
   margin-top: 16px;
+  line-height: 24px;
 }
 .conheca strong{
   display: block;
 }
-.conheca p a{
+.conheca a{
   text-decoration: underline;
   color: #FF651A;
+}
+
+/* RECEITAS */
+.receita1{
+  background: #F4DCC3;
+  padding: 40px 0 80px;
+}
+.receita1 .container > article{
+  display: flex;
+  padding-bottom: 40px;
+}
+.receita1 article > article{
+  padding: 32px 48px;
+}
+.receita1 h2{
+  padding-bottom: 14px;
+  font: 700 40px Arial, Helvetica, sans-serif;
+}
+.receita1 p{
+  color: #4d4d4d;
+  line-height: 24px;
+  padding-bottom: 24px;
+  width: 75%;
+}
+.bold{
+  font-weight: 700;
+}
+.receita1 h3{
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  padding: 32px 0;
+}
+.youtube{
+  display: flex;
+  padding-top: 24px;
+}
+.youtube article{
+  padding: 32px 23px 32px 48px;
+}
+.youtube p{
+  line-height: 24px;
+  width: 76%;
 }
