@@ -53,13 +53,12 @@ video{
 }
 html{scroll-behavior:smooth;}
 body{
-  background:rgb(233, 233, 233);
+  background:#E5E5E5;
   color:#000;
   font-family:Arial, Helvetica, sans-serif;
   font-size:14px;
   line-height:1;
 }
-img{width:100%;}
 ol, 
 ul,
 li{list-style:none;}
@@ -114,3 +113,9 @@ input[type="email"]:placeholder,
 input[type="tel"]:placeholder,
 input[type="search"]:placeholder,
 input[type="url"]:placeholder{color:#666;}
+
+/* ESTILOS */
+h1{
+    text-align: center;
+    margin: 15px 0 14px;
+}
