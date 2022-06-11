@@ -53,7 +53,7 @@ video{
 }
 html{scroll-behavior:smooth;}
 body{
-  background:#E5E5E5;
+  background:#fff;
   color:#000;
   font-family:Arial, Helvetica, sans-serif;
   font-size:14px;
@@ -115,14 +115,31 @@ input[type="search"]:placeholder,
 input[type="url"]:placeholder{color:#666;}
 
 /* ESTILOS */
-.container{
-    width: 1136px;
-    margin: 0 auto;
-}
 h1{
     text-align: center;
     margin: 15px 0 14px;
 }
-.banner{
+
+/* CONTEÚDO */
+.container{
+    width: 1136px;
+    margin: 0 auto;
+}
+.banner-principal{margin-bottom: 96px;}
+.banner-principal img{width: 100%;}
+.artigo{
+    display: flex;
     margin-bottom: 96px;
+}
+.artigo figure{margin-right: 48px;}
+.artigo h2{
+    margin: 46px 0 16px;
+    font: 700 48px Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+.artigo p{
+    color: #4D4D4D;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    width: 65%;
 }
