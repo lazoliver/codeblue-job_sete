@@ -129,17 +129,24 @@ h1{
 .banner-principal img{width: 100%;}
 .artigo{
     display: flex;
-    margin-bottom: 96px;
+    padding-bottom: 96px;
 }
-.artigo figure{margin-right: 48px;}
 .artigo h2{
-    margin: 46px 0 16px;
     font: 700 48px Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
     width: 80%;
 }
+.artigo1 h2{margin: 32px 0px 16px 0}
+.artigo1 figure{margin-right: 48px;}
 .artigo p{
     color: #4D4D4D;
     line-height: 24px;
     letter-spacing: 0.04em;
+    width: 67%;
+}
+.artigo2{
+    padding-left:48px;
+}
+.artigo2 article p{
     width: 65%;
 }
