@@ -180,22 +180,22 @@ h1{
 }
 
 /* RECEITAS */
+/* RECEITA 1 */
 .receita1{
   background: #F4DCC3;
-  padding: 40px 0 80px;
 }
-.receita1 .container > article{
+.receitas .container > article{
   display: flex;
   padding-bottom: 40px;
 }
-.receita1 article > article{
+.receitas article > article{
   padding: 32px 48px;
 }
-.receita1 h2{
+.receitas h2{
   padding-bottom: 14px;
   font: 700 40px Arial, Helvetica, sans-serif;
 }
-.receita1 p{
+.receitas p{
   color: #4d4d4d;
   line-height: 24px;
   padding-bottom: 24px;
@@ -204,7 +204,7 @@ h1{
 .bold{
   font-weight: 700;
 }
-.receita1 h3{
+.receitas h3{
   font-size: 24px;
   line-height: 33px;
   text-align: center;
@@ -220,4 +220,11 @@ h1{
 .youtube p{
   line-height: 24px;
   width: 76%;
+}
+.receita1, .receita2{
+  padding: 40px 0 80px;
+}
+/* RECEITA 2 */
+.receita2{
+  background: #E8E7C1;
 }
