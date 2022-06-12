@@ -228,3 +228,30 @@ h1{
 .receita2{
   background: #E8E7C1;
 }
+
+/* LOJA */
+.loja{
+  padding-top: 96px;
+}
+.loja section{
+  padding-bottom: 96px;
+}
+.loja section{
+  display: flex;
+  padding-top: 24px;
+}
+.loja section article{
+  padding: 81px 0;
+}
+.loja section article > h2{
+  padding-bottom: 32px;
+  font: 700 40px/48px Arial, Helvetica, sans-serif
+}
+.loja p{
+  width: 77%;
+  line-height: 24px;
+  color: #4d4d4d;
+}
+.loja section > figure{
+  margin-left: 64px;
+}
