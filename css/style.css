@@ -278,6 +278,9 @@ h1{
   font-weight: 700;
   width: 256px;
 }
+.loja-itens a:hover{
+  background: #fd6113;
+}
 .loja-itens a > img{
   padding-left: 5px;
 }
