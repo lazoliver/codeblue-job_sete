@@ -233,25 +233,85 @@ h1{
 .loja{
   padding-top: 96px;
 }
-.loja section{
+.artigo-loja section{
   padding-bottom: 96px;
 }
-.loja section{
+.artigo-loja section{
   display: flex;
   padding-top: 24px;
 }
-.loja section article{
+.artigo-loja section article{
   padding: 81px 0;
 }
-.loja section article > h2{
+.artigo-loja section article > h2{
   padding-bottom: 32px;
   font: 700 40px/48px Arial, Helvetica, sans-serif
 }
-.loja p{
+.artigo-loja p{
   width: 77%;
   line-height: 24px;
   color: #4d4d4d;
 }
-.loja section > figure{
+.artigo-loja section > figure{
   margin-left: 64px;
+}
+
+/* LOJA ITENS */
+.loja-itens{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 96px;
+}
+.loja-itens h2{
+  padding: 8px 8px;
+  font: 16px/24px Arial, Helvetica, sans-serif;
+  letter-spacing: 0.04em;
+  width: 240px;
+}
+.loja-itens a{
+  padding: 16px 78px;
+  background: #FF8723;
+  text-transform: uppercase;
+  display: flex;
+  font-weight: 700;
+  width: 256px;
+}
+.loja-itens a > img{
+  padding-left: 5px;
+}
+.preco{
+  padding: 12px 8px;
+}
+.preco section{
+  align-items: center;
+  text-transform: uppercase;
+}
+.preco section p{
+  padding: 4px 8px;
+  background: #333333;
+  border: 1px solid #333333;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 2px;
+}
+.preco h3{
+  padding-right: 60px;
+  font: 700 24px Arial, Helvetica, sans-serif;
+  color: #662100;
+}
+.preco img{
+  padding-left: 60px;
+  justify-content: baseline;
+}
+.preco section{
+  display: flex;
+}
+.preco p{
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  padding: 4px 0px;
+}
+.preco p:first-child{
+  text-decoration: line-through;
+  color: #4D4D4D;
 }
