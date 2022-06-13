@@ -265,7 +265,7 @@ h1{
   padding-bottom: 96px;
 }
 .loja-itens h2{
-  padding: 8px 8px;
+  padding: 16px 8px 11px;
   font: 16px/24px Arial, Helvetica, sans-serif;
   letter-spacing: 0.04em;
   width: 240px;
@@ -282,7 +282,7 @@ h1{
   padding-left: 5px;
 }
 .preco{
-  padding: 12px 8px;
+  padding: 0 8px 12px;
 }
 .preco section{
   align-items: center;
