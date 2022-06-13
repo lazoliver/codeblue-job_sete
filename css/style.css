@@ -126,7 +126,7 @@ h1{
     margin: 0 auto;
 }
 .banner-principal{margin-bottom: 96px;}
-.banner-principal img{width: 100%;}
+.banner-principal img, .banner-footer img{width: 100%;}
 .artigo{
     display: flex;
     padding-bottom: 96px;
@@ -199,7 +199,8 @@ h1{
   color: #4d4d4d;
   line-height: 24px;
   padding-bottom: 24px;
-  width: 75%;
+  width: 82%;
+  letter-spacing: 0.04em;
 }
 .bold{
   font-weight: 700;
@@ -248,7 +249,8 @@ h1{
   font: 700 40px/48px Arial, Helvetica, sans-serif
 }
 .artigo-loja p{
-  width: 77%;
+  width: 82%;
+  letter-spacing: 0.04em;
   line-height: 24px;
   color: #4d4d4d;
 }
