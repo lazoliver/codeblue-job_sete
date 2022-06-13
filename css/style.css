@@ -234,8 +234,8 @@ h1{
 .loja{
   padding-top: 96px;
 }
-.artigo-loja section{
-  padding-bottom: 96px;
+.artigo-loja{
+  padding: 96px 0;
 }
 .artigo-loja section{
   display: flex;
